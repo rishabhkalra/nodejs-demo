@@ -35,3 +35,10 @@
 #p1 {
   font-size: 20px;
 }
+
+.portraits{
+height: 50%;
+width: 50%;
+margin:auto;
+max-width:50%;
+}
