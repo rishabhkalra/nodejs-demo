@@ -6,10 +6,6 @@ router.get('/', function(req, res) {
   res.render('pages/index');
 });
 
-router.get('/page1', function(req, res) {
-  res.render('pages/page1');
-});
-
 router.get('/page2', function(req, res) {
   res.render('pages/page2');
 });
