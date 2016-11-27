@@ -6,6 +6,33 @@
   <body>
     <% include ../partials/nav.ejs %>
 
-    <h1>Page 1</h1>
+    <div class="jumbotron text-center">
+      <div class="container">
+        <a href="/" class="lang-logo">
+          <img src="imgs/lang-logo.png">
+        </a>
+        <h1>What is Node.JS</h1>
+        <p>NodeJS, is a cross-platform JavaScript runtime environment that uses Google’s Chrome V8 JavaScript engine to execute JavaScript programs outside the web browsers.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="text-center"><span class="glyphicon glyphicon-info-sign"></span> Strengths</h3>
+          <ul>
+            <li>Leading industry support, NodeJS is highly mature and has a thousands of open source libraries.</li>
+            <li>Uses modules to add additional functionality such as I/O, networking tools (DNS, HTTP, TLS, etc), cryptographic algorithms and many other core functionality.</li>
+            <li>Ability to create highly scalable web servers and networking tools.</li>
+            <li>Ability to bring event driven programming to web servers.</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-center"><span class="glyphicon glyphicon-info-sign"></span> Weaknesses</h3>
+          <ul>
+            <li>NodeJS is a Single threaded runtime engine.</li>
+          </ul>
+        </div>
+      </div> <!-- row -->
+    </div>
   </body>
 </html>
