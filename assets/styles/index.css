@@ -35,3 +35,14 @@
 #p1 {
   font-size: 20px;
 }
+
+.portaits {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  max-width: 50%;
+}
+
+.pimg {
+  height: 250px;
+}
