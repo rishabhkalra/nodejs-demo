@@ -46,3 +46,9 @@
 .pimg {
   height: 250px;
 }
+
+.img-well {
+  padding: 10px;
+  border-radius: 5%;
+  background: rgba(150,150,150,0.5)
+}
